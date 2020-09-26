@@ -208,6 +208,26 @@ hr {
     text-decoration: underline;
 }
 
+/* errcards*/
+.err-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin: 0px 0;
+}
+
+.err-cards img{
+    width: 400px;
+}
+.err-cards h1 {
+    font-size: 202px;
+    margin: 0px 0;
+}
+.err-cards h3{
+    font-size: 40px;
+}
+
+
 /*CARDS BANNER ONE*/
 .cards-banner-one {
     width: 100%;
@@ -351,6 +371,12 @@ hr {
         width: 150px;
         height: 150px;
     }
+
+    .err-cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+        padding: 0px;
+      }
 
     .cards-banner-one .content,
     .cards-banner-two .content {
