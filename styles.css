@@ -115,7 +115,7 @@ hr {
 .showcase-chikito{
     width: 100%;
     background: red;
-    height: 300px;
+    height: 350px;
     background: url('./img/banner-redes.jpg') no-repeat center  center /cover;
     color: #fff;
     padding: 50px;
@@ -334,7 +334,11 @@ hr {
     .nav-main ul.nav-menu-right {
       margin-right: 50px;
     }
-  
+    
+    .showcase-chikito{
+        font-size: 14px;
+    }
+
     .news-cards {
       grid-template-columns: repeat(2, 1fr);
     }
